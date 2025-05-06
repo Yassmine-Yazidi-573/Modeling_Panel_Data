@@ -56,7 +56,7 @@ This model controls for all unobserved, time-invariant characteristics of each a
 
 * Model Equation:
  
-y_it = αᵢ + β₁·Q_it + β₂·PF_it + β₃·LF_it + u_it
+yᵢₜ = αᵢ + β₁·Qᵢₜ + β₂·PFᵢₜ + β₃·LFᵢₜ + uᵢₜ
 
 * R-squared (Within): 0.9294
 
