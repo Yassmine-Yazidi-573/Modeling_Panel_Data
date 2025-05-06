@@ -1,7 +1,3 @@
-Certainly! Here's a fully developed and polished section you can copy into your GitHub README, combining detailed interpretation of each model’s results, diagnostic tests, coefficient discussion, and model selection logic — complete with equations, tables, and clarity suitable for academic or professional presentation:
-
----
-
 ## 📊 Model Estimation and Selection Summary
 
 This project analyzes a balanced panel dataset of 6 airline firms observed over 15 years (T = 15, N = 6), totaling 90 firm-year observations. The goal is to estimate the impact of key explanatory variables — Quantity (Q), Price Factor (PF), and Labor Force (LF) — on the outcome variable \[insert dependent variable, e.g., Revenue or Cost]. Given the panel structure of the data, three econometric models were estimated and evaluated:
