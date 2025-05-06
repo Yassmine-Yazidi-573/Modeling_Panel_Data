@@ -1,6 +1,6 @@
 ## 📊 Model Estimation and Selection Summary
 
-This project analyzes a balanced panel dataset consisting of 6 airline firms observed over 15 years (90 total observations). The objective is to estimate the relationship between \[insert your dependent variable] and a set of explanatory variables, accounting for both temporal and firm-specific variation.
+This project analyzes a balanced panel dataset consisting of 6 airline firms observed over 15 years (90 total observations). The objective is to estimate the relationship between \total cost (C) of U.S. airlines and a set of explanatory variables, accounting for both temporal and firm-specific variation.
 
 ### 1. Model Specifications Considered
 
