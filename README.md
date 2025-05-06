@@ -56,10 +56,9 @@ This baseline model treats all observations as independent and identically distr
 This model controls for all unobserved, time-invariant characteristics of each airline (e.g., fixed cost structure, regional base), removing firm-specific bias.
 
 * Model Equation:
-
-  $$
-  y_{it} = \alpha_i + \beta_1 Q_{it} + \beta_2 PF_{it} + \beta_3 LF_{it} + u_{it}
-  $$
+$$
+y_{it} = \alpha_i + \beta_1 Q_{it} + \beta_2 PF_{it} + \beta_3 LF_{it} + u_{it}
+$$
 
 * R-squared (Within): 0.9294
 
