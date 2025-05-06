@@ -17,7 +17,6 @@ This project analyzes a balanced panel dataset of 6 airline firms observed over 
 * Random Effects (RE)
 
 ---
-
 ### 📌 1. Pooled Ordinary Least Squares (OLS)
 
 This baseline model treats all observations as independent and identically distributed (i.i.d.), ignoring firm-level heterogeneity.
@@ -56,9 +55,10 @@ This baseline model treats all observations as independent and identically distr
 This model controls for all unobserved, time-invariant characteristics of each airline (e.g., fixed cost structure, regional base), removing firm-specific bias.
 
 * Model Equation:
-$$
-y_{it} = \alpha_i + \beta_1 Q_{it} + \beta_2 PF_{it} + \beta_3 LF_{it} + u_{it}
-$$
+
+  $$
+  y_{it} = \alpha_i + \beta_1 Q_{it} + \beta_2 PF_{it} + \beta_3 LF_{it} + u_{it}
+  $$
 
 * R-squared (Within): 0.9294
 
@@ -138,6 +138,6 @@ Final model choice:
 
 ---
 
-📌 Note: In the code, we used Python’s linearmodels library to estimate all models and perform the Hausman test manually via covariance matrices.
+📌 Note: In your code, we used Python’s linearmodels library to estimate all models and perform the Hausman test manually via covariance matrices.
 
-Let me know if you’d like a diagram showing the model selection logic flow (e.g., F-test → Hausman test → FE chosen), or help visualizing the coefficients across models
+Let me know if you’d like a diagram showing the model selection logic flow (e.g., F-test → Hausman test → FE chosen), or help visualizing the coefficients across models.
