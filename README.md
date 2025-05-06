@@ -1,13 +1,13 @@
 ## 📊 Model Estimation and Selection Summary
 
-Predictors:
+##Predictors:
 I = Airline,
 T = Year,
 Q = Output, in revenue passenger miles, index number,
 PF = Fuel price,
 LF = Load factor, the average capacity utilization of the fleet.
 
-Response:
+##Response:
 C = Total cost, in $1000
 
 This project analyzes a balanced panel dataset of 6 airline firms observed over 15 years (T = 15, N = 6), totaling 90 firm-year observations. The goal is to estimate the impact of key explanatory variables — output (Q), Price Fuel (PF), and Load Factor (LF) — on the outcome variable C=Total Cost. Given the panel structure of the data, three econometric models were estimated and evaluated:
