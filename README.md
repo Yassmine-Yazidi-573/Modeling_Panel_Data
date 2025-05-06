@@ -86,9 +86,7 @@ RE assumes firm-specific effects are random draws and uncorrelated with the regr
 
 * Model Equation:
 
-  $$
-  y_{it} = \beta_0 + \beta_1 Q_{it} + \beta_2 PF_{it} + \beta_3 LF_{it} + (\mu_i + \epsilon_{it})
-  $$
+yᵢₜ = β₀ + β₁·Qᵢₜ + β₂·PFᵢₜ + β₃·LFᵢₜ + (μᵢ + εᵢₜ)
 
 * R-squared (Overall): 0.9331
 
