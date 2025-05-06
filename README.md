@@ -103,7 +103,7 @@ yᵢₜ = β₀ + β₁·Qᵢₜ + β₂·PFᵢₜ + β₃·LFᵢₜ + (μᵢ + 
 
 ### 🧪 4. Hausman Test: FE vs RE
 
-To determine if RE is consistent (i.e., whether its assumptions are valid), we conducted a Hausman test. This test compares the difference in estimated coefficients between FE and RE, and checks if it is statistically significant.
+To determine if RE is consistent (i.e., whether its assumptions are valid), I conducted a Hausman test. This test compares the difference in estimated coefficients between FE and RE, and checks if it is statistically significant.
 
 * Test Statistic: 60.8695
 * Degrees of Freedom: 3
@@ -134,6 +134,4 @@ Final model choice:
 
 ---
 
-📌 Note: In your code, we used Python’s linearmodels library to estimate all models and perform the Hausman test manually via covariance matrices.
-
-Let me know if you’d like a diagram showing the model selection logic flow (e.g., F-test → Hausman test → FE chosen), or help visualizing the coefficients across models.
+📌 Note: In the code, I used Python’s linearmodels library to estimate all models and perform the Hausman test manually via covariance matrices.
